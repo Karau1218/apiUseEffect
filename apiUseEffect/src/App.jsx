@@ -1,11 +1,11 @@
 import Header from "./Header";
-import WallStreet from  ".WallStreet"
+import Pokemon from "./Pokemon";
 
 export default function App() {
   return (
     <>
-    <Header />
-    <WallStreet />
+      <Header />
+      <Pokemon />
     </>
-  )
+  );
 }
